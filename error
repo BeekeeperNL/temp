@@ -1,0 +1,24 @@
+/var/folders/lp/tkn8v5v54tgfk1cr0zx_7y0m0000gn/T//ccTKRzhn.ltrans0.ltrans.o: In function `calcBcnRxWindowFromMillis':
+/Users/current/Documents/Arduino/libraries/LMIC-Arduino/src/lmic/lmic.c:419: undefined reference to `table_get_ostime'
+/var/folders/lp/tkn8v5v54tgfk1cr0zx_7y0m0000gn/T//ccTKRzhn.ltrans0.ltrans.o: In function `calcRxWindow':
+/Users/current/Documents/Arduino/libraries/LMIC-Arduino/src/lmic/lmic.c:405: undefined reference to `table_get_ostime'
+/Users/current/Documents/Arduino/libraries/LMIC-Arduino/src/lmic/lmic.c:407: undefined reference to `table_get_ostime'
+/var/folders/lp/tkn8v5v54tgfk1cr0zx_7y0m0000gn/T//ccTKRzhn.ltrans0.ltrans.o: In function `initDefaultChannels':
+/Users/current/Documents/Arduino/libraries/LMIC-Arduino/src/lmic/lmic.c:553: undefined reference to `table_get_u4'
+/var/folders/lp/tkn8v5v54tgfk1cr0zx_7y0m0000gn/T//ccTKRzhn.ltrans0.ltrans.o: In function `radio_irq_handler':
+/Users/current/Documents/Arduino/libraries/LMIC-Arduino/src/lmic/radio.c:777: undefined reference to `table_get_u2'
+/var/folders/lp/tkn8v5v54tgfk1cr0zx_7y0m0000gn/T//ccTKRzhn.ltrans0.ltrans.o: In function `schedRx12':
+/Users/current/Documents/Arduino/libraries/LMIC-Arduino/src/lmic/lmic.c:1354: undefined reference to `table_get_ostime'
+collect2: error: ld returned 1 exit status
+Multiple libraries were found for "SSD1306Ascii.h"
+ Used: /Users/current/Documents/Arduino/libraries/SSD1306Ascii
+Multiple libraries were found for "lmic.h"
+ Used: /Users/current/Documents/Arduino/libraries/LMIC-Arduino
+Multiple libraries were found for "SPI.h"
+ Used: /Users/current/Documents/Arduino/libraries/SPI
+Multiple libraries were found for "DHT.h"
+ Used: /Users/current/Documents/Arduino/libraries/DHT-sensor-library-master
+Multiple libraries were found for "Adafruit_Sensor.h"
+ Used: /Users/current/Documents/Arduino/libraries/Adafruit_Sensor-master
+exit status 1
+Error compiling for board Arduino Pro or Pro Mini.
